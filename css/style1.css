@@ -1,0 +1,84 @@
+img{
+    max-width: 200px;
+    width:50% ;
+    max-height: 200px;
+    height: 50%;
+    border-radius: 100px;
+}
+h1
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h3.tieude
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+div.div1{
+    border: 1px solid black;
+    margin: auto;
+    padding: 7px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 10px;
+    width: 95%;
+}
+table#bang1
+{
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    background:linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+table#bang1 td{
+    border: none;
+	padding: 5px;
+}
+
+table#bang2,table#bang2 td,table#bang2 tr,table#bang2 th
+{
+    border:1px solid black;
+    margin:auto;
+    width: 50%;
+    height: 30px;
+    background:linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 10px;
+} 
+table#bang2 th
+{
+    border: none;
+}
+ol{
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 9px;
+    width: 50%;
+    background:linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    padding: 5px;
+    list-style-position: inside;
+}
+ul{
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 9px;
+    width: 50%;
+    background:linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    padding: 5px;
+    list-style-position: inside;
+}
+
+div.info
+{
+    padding: 5px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 9px;
+    width: 50%;
+    background:linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}

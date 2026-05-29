@@ -22,7 +22,7 @@ a{
 }
 .container
 {	
-	background: linear-gradient(90deg, #CF203E, #505DA0);
+	background: linear-gradient(to bottom, #00ff99 0%, #9999ff 100%);
 	margin: 50px auto 0px;
 	max-width: 1000px;
 	border-radius:10px;
@@ -38,7 +38,7 @@ a{
 	max-width:500px;
 	width:50%;
 	overflow:hidden;
-	background-color:#220a4a;
+	background-color:#00ffb3;
 	border-radius:10px;	
 
 

@@ -11,9 +11,11 @@
 	<body>
         <div id="productlist"></div>
         <script>
-            CreateItem(product);
-            CreateItem(productlistt[0]);
-            CreateItem(productlistt[1]);
+            let length =  productlistt.length;
+            for(let i=0;i<=length;i++)
+            {
+                CreateItem(productlistt[i]);
+            }
         </script>
 	</body>
 

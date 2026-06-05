@@ -1,10 +1,4 @@
-const product={
-    name:"Samsung Galaxy S25 ",
-    price:"11000000",
-    description:"5G 8GB/256GB",
-    image:"../assets/img/samsungglx.jpg",
-    linkproduct:"https://www.thegioididong.com/dtdd/samsung-galaxy-s25-fe-5g-8gb-256gb?utm_flashsale=1"
-}
+
 const productlistt=[
     {
     name:"Mi Band 9 Pro ",
@@ -19,6 +13,13 @@ const productlistt=[
     description:"Chuột không dây sử dụng dây",
     image:"../assets/img/chuotrazer.jpg",
     linkproduct:"https://www.thegioididong.com/chuot-may-tinh/chuot-sac-khong-day-gaming-razer-viper-v3-pro?utm_flashsale=1"
+    },
+    {
+    name:"Samsung Galaxy S25 ",
+    price:"11000000",
+    description:"5G 8GB/256GB",
+    image:"../assets/img/samsungglx.jpg",
+    linkproduct:"https://www.thegioididong.com/dtdd/samsung-galaxy-s25-fe-5g-8gb-256gb?utm_flashsale=1"
     }
 ]
 

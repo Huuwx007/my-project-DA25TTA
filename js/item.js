@@ -1,28 +1,4 @@
 
-const productlistt=[
-    {
-    name:"Mi Band 9 Pro ",
-    price:"3000000",
-    description:"Sieu pham",
-    image:"../assets/img/mipand.jpg",
-    linkproduct:"https://www.thegioididong.com/dong-ho-thong-minh/mi-band-9-pro?utm_flashsale=1"
-    },
-    {
-    name:"Chuột sạc Không dây Gaming Razer Viper V3 Pro",
-    price:"300000",
-    description:"Chuột không dây sử dụng dây",
-    image:"../assets/img/chuotrazer.jpg",
-    linkproduct:"https://www.thegioididong.com/chuot-may-tinh/chuot-sac-khong-day-gaming-razer-viper-v3-pro?utm_flashsale=1"
-    },
-    {
-    name:"Samsung Galaxy S25 ",
-    price:"11000000",
-    description:"5G 8GB/256GB",
-    image:"../assets/img/samsungglx.jpg",
-    linkproduct:"https://www.thegioididong.com/dtdd/samsung-galaxy-s25-fe-5g-8gb-256gb?utm_flashsale=1"
-    }
-]
-
 function CreateItem(obj)
 {
     //tao containerItem
@@ -68,4 +44,36 @@ function CreateItem(obj)
     document.getElementById("productlist").appendChild(containerItem);
 
     
+}
+
+function CreateItemv2(obj)
+{
+    const list = document.getElementById("productlist");
+    list.innerHTML += `
+    <div class="col">
+        <div class="card product-item h-100">
+                <div class="product-img ratio ratio-1x1">
+                    <img class="image card-img-top object-fit-cover" src="${obj.image}" alt="${obj.name}">
+                </div>
+                <div class="card-body product-info text-center">
+                    <h4 class="card-title">${obj.name}</h4>
+                    <h5 class="card-price">${obj.price}</h5>
+                    <p class="card-text">${obj.description}</p>
+                    <a href="${obj.linkproduct}?masp=${obj.id}" class="btn btn-primary">Xem thêm</a>
+                </div>
+        </div>
+
+    </div>
+        
+    
+    `
+}
+
+function CreateItemList(array){
+    let i=0;   
+        while(i<array.length)
+        {
+            CreateItemv2(array[i]);
+            i++;
+        }
 }
